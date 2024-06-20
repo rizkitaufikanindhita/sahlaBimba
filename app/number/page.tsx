@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { useRouter } from "next/navigation"
 
-const number = () => {
+const Number = () => {
   const router = useRouter()
   const [number, setNumber] = useState(0)
   
@@ -48,4 +48,4 @@ const number = () => {
   )
 }
 
-export default number
+export default Number

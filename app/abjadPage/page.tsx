@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation"
 
-const abjadPage = () => {
+const AbjadPage = () => {
   const router = useRouter()
 
   return (
@@ -28,4 +28,4 @@ const abjadPage = () => {
   )
 }
 
-export default abjadPage
+export default AbjadPage

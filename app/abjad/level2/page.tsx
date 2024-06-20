@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { useRouter } from "next/navigation"
 
-const level2 = () => {
+const Level2 = () => {
   const router = useRouter()
   const list = ["B","D","G","K","M","P","S","Y"]
   const [position, setPosition] = useState(0)
@@ -53,4 +53,4 @@ const level2 = () => {
   )
 }
 
-export default level2
+export default Level2
